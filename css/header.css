@@ -4,7 +4,9 @@ header {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 header * {
     color: white;
@@ -16,11 +18,14 @@ header a {
 header a:first-child, header a:nth-child(2) {
     margin-right: 60px;
 }
+header img {
+    filter: invert(1);
+    width: 64px;
+}
 .header_menu {
     width: 600px;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding-right: 100px;
 }

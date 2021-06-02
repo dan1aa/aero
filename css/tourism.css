@@ -31,10 +31,6 @@ content {
 .content_fill span {
     font-size: 20px;
 }
-.maps{
-    width: 500px;
-    height: 500px;
-}
 content + h2, .slider + h2 {
     margin-bottom: 40px;
     font-size: 30px;
