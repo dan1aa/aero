@@ -169,16 +169,17 @@
                         ?>
             </table>
         </div>
+        <button><a href="/ticket.php">Buy tickets</a></button>
     </div>
     <div class="achievements">
         <h2>WHY OUR AIRPORT?</h2>
         <hr>
         <div class="bl_achievements">
             <div class="ach_first_row"><img src="img/ach_1.png" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam suscipit minima earum iusto ratione natus odio tenetur laudantium iure et, molestias, ipsam facere error dolorum? </p><img src="img/ach_3.png" alt=""></div>
+                <p>Our airport has a convenient location and good structure. It is also the only one in the city, so you have no choice) </p><img src="img/ach_3.png" alt=""></div>
             <div class="ach_second_row">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, optio eveniet culpa unde incidunt perspiciatis distinctio architecto fuga, explicabo aspernatur quia qui obcaecati, sint quidem. </p><img src="img/ach_2.png" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consectetur porro cumque, non fuga culpa rerum illum accusantium aliquam totam perferendis reprehenderit, delectus, nihil aperiam vel iste enim! Molestiae</p>
+                <p>We have many different flights and destinations. You can fly to many countries or cities. It is very convinient. </p><img src="img/ach_2.png" alt="">
+                <p>We have courteous staff and fast feedback, so you won't go unanswered.</p>
             </div>
         </div>
     </div>
@@ -187,11 +188,11 @@
             <div class="footer_info">
                 <div>
                     <img src="https://image.flaticon.com/icons/png/512/3179/3179068.png" alt="">
-                    <span>city, street 44</span>
+                    <span>Ivano-Frankivsk, South Bulvar 5</span>
                 </div>
                 <div>
                     <img src="https://image.flaticon.com/icons/png/512/597/597177.png" alt="">
-                    <span>000-000-00-00</span>
+                    <span>099-231-15-19</span>
                 </div>
                 <div>
                     <img src="https://image.flaticon.com/icons/png/512/725/725643.png" alt="">

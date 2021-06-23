@@ -626,12 +626,26 @@ h2 {
 
 .content {
     display: flex;
+    flex-direction: column;
     width: 100%;
     padding-top: 4%;
     padding-left: 7%;
-    padding-bottom: 4%;
 }
-
+.content > button {
+    width: 150px;
+    height: 50px;
+    background: tomato;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.content > button a {
+    color: white;
+    text-decoration: none;
+}
 table {
     width: 800px;
     height: 400px;
@@ -640,6 +654,7 @@ table {
     border-top-left-radius: 35px;
     border-bottom-right-radius: 35px;
     padding: 5%;
+    margin-bottom: 40px;
 }
 
 tr,

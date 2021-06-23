@@ -64,26 +64,26 @@
             </div>
         </div>
         <footer>
-            <div>
-                <div class="footer_info">
-                    <div>
-                        <img src="https://image.flaticon.com/icons/png/512/3179/3179068.png" alt="">
-                        <span>city, street 44</span>
-                    </div>
-                    <div>
-                        <img src="https://image.flaticon.com/icons/png/512/597/597177.png" alt="">
-                        <span>000-000-00-00</span>
-                    </div>
-                    <div>
-                        <img src="https://image.flaticon.com/icons/png/512/725/725643.png" alt="">
-                        <span>testemail@mail.com</span>
-                    </div>
+        <div>
+            <div class="footer_info">
+                <div>
+                    <img src="https://image.flaticon.com/icons/png/512/3179/3179068.png" alt="">
+                    <span>Ivano-Frankivsk, South Bulvar 5</span>
                 </div>
-                <span class="copyright">
-                    © Our last project in SHKM
-                </span>
+                <div>
+                    <img src="https://image.flaticon.com/icons/png/512/597/597177.png" alt="">
+                    <span>099-231-15-19</span>
+                </div>
+                <div>
+                    <img src="https://image.flaticon.com/icons/png/512/725/725643.png" alt="">
+                    <span>testemail@mail.com</span>
+                </div>
             </div>
-        </footer>
+            <span class="copyright">
+                © Our last project in SHKM
+            </span>
+        </div>
+    </footer>
     </div>
 </body>
 </html>

@@ -14,21 +14,67 @@
         <div class="line"></div>
           <form>
             <div class="form_text">
-              <p class="p-10">From:</p>
+              <p class="p-10">Flight</p>
               <label for="From"></label>
-              <input type="text" placeholder="From" name="From">
-          
-              <p class="p-10">Where:</p>
-              <label for="Where"></label>
-              <input type="text" placeholder="Where" name="Where">
-          
-              <p class="p-10">Flights:</p>
-              <label for="Flights"></label>
-              <input type="text" placeholder="Flights" name="Flights">
+              <select name="from" id="from">
+                <?php
+        
+                $servername = "/airport";
+                $username = "root";
+                $password = "root";
+                $dbname = 'airport';
+
+                // Create connection
+                $connection = mysqli_connect("localhost", "root", "root", "airport");
+                $query = $connection->query("select name as name from airport.flights" );
+
+                if($connection->connect_error) {
+                    echo 'err';
+                }
+
+                if ($query->num_rows > 0) {
+                    while($row = $query->fetch_assoc()) {
+
+                    echo "<option>" . $row['name'] . "</option>";
+
+                    }
+                } else {
+                    echo "0 results";
+                }
+
+                ?>
+            </select>
               
               <p class="p-10">Airline:</p>
               <label for="Airline"></label>
-              <input type="text" placeholder="Airline" name="Airline">
+              <select name="from" id="from">
+                <?php
+        
+                $servername = "/airport";
+                $username = "root";
+                $password = "root";
+                $dbname = 'airport';
+
+                // Create connection
+                $connection = mysqli_connect("localhost", "root", "root", "airport");
+                $query = $connection->query("select company as company from airport.plane" );
+
+                if($connection->connect_error) {
+                    echo 'err';
+                }
+
+                if ($query->num_rows > 0) {
+                    while($row = $query->fetch_assoc()) {
+
+                    echo "<option>" . $row['company'] . "</option>";
+
+                    }
+                } else {
+                    echo "0 results";
+                }
+
+                ?>
+            </select>
 
               <p class="p-10">Place:</p>
               <label for="Place"></label>
@@ -37,7 +83,34 @@
             <br>
             <div class="container-2">
                 <div class="bloc1">
-                    <input class="bloc_text" type="text" placeholder="Date first" name="Date first">
+                    <select class="half_select" name="from" id="from">
+                    <?php
+            
+                    $servername = "/airport";
+                    $username = "root";
+                    $password = "root";
+                    $dbname = 'airport';
+
+                    // Create connection
+                    $connection = mysqli_connect("localhost", "root", "root", "airport");
+                    $query = $connection->query("select arrival_time as arriv from airport.flights" );
+
+                    if($connection->connect_error) {
+                        echo 'err';
+                    }
+
+                    if ($query->num_rows > 0) {
+                        while($row = $query->fetch_assoc()) {
+
+                        echo "<option>" . $row['arriv'] . "</option>";
+
+                        }
+                    } else {
+                        echo "0 results";
+                    }
+
+                    ?>
+                    </select>
                     <div class="">
                         <p>adults:</p>
                         <div class="row">
@@ -50,7 +123,34 @@
                     </div>
                 </div>
                 <div class="bloc2">
-                    <input class="bloc_text" type="text" placeholder="Date second" name="Date second">
+                <select class="half_select" name="from" id="from">
+                    <?php
+            
+                    $servername = "/airport";
+                    $username = "root";
+                    $password = "root";
+                    $dbname = 'airport';
+
+                    // Create connection
+                    $connection = mysqli_connect("localhost", "root", "root", "airport");
+                    $query = $connection->query("select departure_time as depar from airport.flights" );
+
+                    if($connection->connect_error) {
+                        echo 'err';
+                    }
+
+                    if ($query->num_rows > 0) {
+                        while($row = $query->fetch_assoc()) {
+
+                        echo "<option>" . $row['depar'] . "</option>";
+
+                        }
+                    } else {
+                        echo "0 results";
+                    }
+
+                    ?>
+                    </select>
                     <div class="">
                         <p>juvenile:</p>
                         <div class="row">

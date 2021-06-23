@@ -28,12 +28,7 @@
                     <h1>TOURISM</h1>
                     <hr>
                 </div>
-                <span>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-                    aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo 
-                    enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores 
-                    eos qui ratione voluptatem sequi nesciunt. Neque porro. et quasi architecto beatae vitae dicta sunt explicabo. Nemo 
-                    enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores 
-                    eos qui ratione voluptatem sequi nesciunt. Neque porro.</span>
+                <span>Ivano-Frankivsk region is very interesting and diverse. Here you can find tourist entertainment for all tastes, from mountain tourism to simple walks in Ivano-Frankivsk. This is a very rich and varied place with many interesting places and events. Ivano-Frankivsk also has a very interesting history, which can be explored in museums that are not only in Ivano-Frankivsk, if you go outside the city you can find a lot of interesting historical places. If you have the opportunity and time, be sure to visit this city, we promise you will like it.</span>
             </div>
             <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" height="600" width="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div></div>
         </content>
@@ -44,47 +39,47 @@
         <div class="places">
             <div class="place">
                 <div class="place_img"></div>
-                <h2>NAME ONE</h2>
+                <h2>HOTEL NADIYA</h2>
                 <span>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
                     aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</span>
-                <div class="price">Approxemately price: 00.00$</div>
+                <div class="price">Approxemately price: 10-60$</div>
             </div>
             <div class="place">
                 <div class="place_img"></div>
-                <h2>NAME TWO</h2>
+                <h2>PIZZA PLUS</h2>
                 <span>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
                     aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</span>
-                <div class="price">Approxemately price: 00.00$</div>
+                <div class="price">Approxemately price: 10-15$</div>
             </div>
             <div class="place">
                 <div class="place_img"></div>
-                <h2>NAME THREE</h2>
+                <h2>DESYATKA</h2>
                 <span>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
                     aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</span>
-                <div class="price">Approxemately price: 00.00$</div>
+                <div class="price">Approxemately price: 15-20$</div>
             </div>
         </div>
         <footer>
-            <div>
-                <div class="footer_info">
-                    <div>
-                        <img src="https://image.flaticon.com/icons/png/512/3179/3179068.png" alt="">
-                        <span>city, street 44</span>
-                    </div>
-                    <div>
-                        <img src="https://image.flaticon.com/icons/png/512/597/597177.png" alt="">
-                        <span>000-000-00-00</span>
-                    </div>
-                    <div>
-                        <img src="https://image.flaticon.com/icons/png/512/725/725643.png" alt="">
-                        <span>testemail@mail.com</span>
-                    </div>
+        <div>
+            <div class="footer_info">
+                <div>
+                    <img src="https://image.flaticon.com/icons/png/512/3179/3179068.png" alt="">
+                    <span>Ivano-Frankivsk, South Bulvar 5</span>
                 </div>
-                <span class="copyright">
-                    © Our last project in SHKM
-                </span>
+                <div>
+                    <img src="https://image.flaticon.com/icons/png/512/597/597177.png" alt="">
+                    <span>099-231-15-19</span>
+                </div>
+                <div>
+                    <img src="https://image.flaticon.com/icons/png/512/725/725643.png" alt="">
+                    <span>testemail@mail.com</span>
+                </div>
             </div>
-        </footer>
+            <span class="copyright">
+                © Our last project in SHKM
+            </span>
+        </div>
+    </footer>
     </div>
     <script src="js/slider.js"></script>
 </body>

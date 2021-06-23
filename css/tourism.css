@@ -38,7 +38,7 @@ content + h2, .slider + h2 {
 .slider {
     width: 100%;
     height: 600px;
-    background-image: url('https://wallpapercave.com/wp/wp3011478.jpg');
+    background-image: url('https://orendar.com/data/uploads/blog/%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%20%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%D1%81%D0%BA/ivano-frankivsk-vyd-iz-lehendy.jpg');
     background-attachment: cover;
     background-size: 100%;
     margin-bottom: 100px;
@@ -80,13 +80,13 @@ content + h2, .slider + h2 {
     margin-bottom: 10px;
 }
 .place_img:first-child {
-    background-image: url("https://www.smartertravel.com/wp-content/uploads/2019/01/famous-hotel-Marina-Bay-Sands-from-afar-1024x683.jpg");
+    background-image: url("https://nadiya.hotels-of-ukraine.com/data/Photos/767x460/9183/918333/918333886.JPEG");
 }
 .place:nth-child(2) > .place_img {
-    background-image: url("https://cdn.cnn.com/cnnnext/dam/assets/150514132759-6-raffles-hotel-singapore-iconic-hotels-super-169.jpg");
+    background-image: url("http://zaklad.if.ua/Content/Companies/12330/03.jpg");
 }
 .place:nth-child(3) > .place_img {
-    background-image: url("https://images.huffingtonpost.com/2014-12-14-plazaya-thumb.jpg");
+    background-image: url("https://discover-ukraine.info/uploads/i/i/50bcc9065d8767.94468847.1201.jpg");
 }
 .place span {
     margin-bottom: 15px;

@@ -101,3 +101,11 @@ input {
 .image img {
     cursor: pointer;
 }
+select {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.half_select {
+    width: 150px;
+}
