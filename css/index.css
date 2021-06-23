@@ -633,8 +633,8 @@ h2 {
 }
 
 table {
-    width: 30vw;
-    height: 30vh;
+    width: 800px;
+    height: 400px;
     border: white;
     background: #004D81;
     border-top-left-radius: 35px;

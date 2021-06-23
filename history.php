@@ -17,9 +17,9 @@
         <header>
             <img src="https://image.flaticon.com/icons/png/512/3800/3800026.png" alt="">
             <div class="header_menu">
-                <a href="history.html">MAIN</a>
-                <a href="tourism.html">TOURISM</a>
-                <a href="history.html">HISTORY</a>
+                <a href="/index.php">MAIN</a>
+                <a href="/tourism.php">TOURISM</a>
+                <a href="/history.php">HISTORY</a>
             </div>
         </header>
         <content>
