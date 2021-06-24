@@ -12,8 +12,14 @@
     <div class="container-1">
         <h1 class="text_header">FIND YOUR TICKET</h1>
         <div class="line"></div>
-          <form>
+          <form method="POST">
             <div class="form_text">
+            <p class="p-10">Name:</p>
+            <input type="text" placeholder="Your name" name="name">
+
+            <p class="p-10">Class:</p>
+            <input type="text" placeholder="Class" name="class">
+
               <p class="p-10">Flight</p>
               <label for="From"></label>
               <select name="from" id="from">
@@ -78,7 +84,7 @@
 
               <p class="p-10">Place:</p>
               <label for="Place"></label>
-              <input type="text" placeholder="Place" name="Place">
+              <input type="text" placeholder="Place" name="place">
             </div>
             <br>
             <div class="container-2">
@@ -166,10 +172,31 @@
             <br>
             <div class="test">
               <button type="submit" class="clear registerbtn">Clear</button>
-              <button type="submit" class="search registerbtn">Search for flights</button>
+              <button type="submit" name="search" class="search registerbtn">Search for flights</button>
             </div>
          </form>
     </div>
     <script src="js/ticket.js"></script>
+    <?php
+
+    if(isset($_POST['search'])) {
+        if(!empty($_POST['name']) || !empty($_POST['place']) || !empty($_POST['class'])) {
+            $class = $_POST['class'];
+            $place = $_POST['place'];
+            $name = $_POST['name'];
+            $q = "INSERT INTO ticket(cost, class, place_number, name_passenger, flightsID) 
+            VALUES (300.10, '$class', '$place', '$name', 2)";
+            if ($connection->query($q) === TRUE) {
+                echo "SUCCESS!";
+
+            } else {
+                echo "Error: " . $q . "<br>" . $connection->error;
+            }
+        }
+    }
+
+
+
+?>
 </body>
 </html>

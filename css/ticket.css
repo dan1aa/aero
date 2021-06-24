@@ -55,6 +55,7 @@ input {
 .container-1 {
     width: 450px;
     height: 800px;
+    background: white;
 }
 .text_header {
     text-align: center;
